@@ -1,0 +1,43 @@
+<html>
+<head></head>
+<body>
+<h1>HTML forms</h1>
+<label>User Name :</label><br>
+<input type="text"><br><br>
+<label>Address :</label><br>
+<input type="text"><br><br>
+<label>Date Of Birth :</label><br>
+<input type="date"><br><br>
+<label>NIC :</label><br>
+<input type="text"><br><br>
+<label>Country</label>
+<select>
+<option>SriLanka</option>
+<option></option>
+<option></option>
+</select><br><br>
+<h2>Marriage/Unmarriage</h2>
+<input type="radio">Marriage
+<input type="radio">Unmarriage<br><br>
+<label>Gender</label><br><br>
+<input type="radio">Male
+<input type="radio">Female
+<input type="radio">other
+<br><br>
+<h3>A/L Stream</h3>
+<select>
+<option>Bio Science</option>
+<option></option>
+<option></option>
+</select>
+<br><br>
+<h3>Favorite Sports</h3>
+<input type="checkbox">Cricket<br>
+<input type="checkbox">Football<br>
+<input type="checkbox">Basketball<br>
+<br><br>
+<input type="submit" value="Submit">
+<input type="submit" value="Button">
+<input type="reset" value="Reset">
+</body>
+</html>
