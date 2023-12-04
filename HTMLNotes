@@ -1,0 +1,131 @@
+HTML---
+if we are not written the title then it will be taken the file name in title name.
+⦁	attributes are define in opening tag
+⦁	many attributes can be define in one tag 
+⦁	we can separate the attribute by the space
+⦁	<tagname attribute="value"  attribute="value"></tagname>
+⦁	Enter in drive : drivename:/
+⦁	Enter in folder : foldername/
+⦁	back in any folder : ../
+⦁	We can use all the tags of head in body but we can not use the body tag in the head section.
+⦁	for strike -- <s></s> or <strike></strike> or <del></del>
+⦁	<abbr title="iphone max">Phone</abbr>
+⦁	for showing the bigger text camparison to other text -- <big></big> 
+⦁	for highlighting or marking  the text : <mark></mark>
+⦁	for showing the small text : <small></small>
+⦁	for the underline : <u></u>
+⦁	for the bold text : <b></b> or <strong></strong>
+⦁	for the italic : <i></i> or <em></em>
+⦁	for changing the background color  :<body bg-color="yellow"></body>
+
+FONT TAG : --
+<font></font>
+⦁	color 
+⦁	face 
+⦁	size
+%nbsp - non breaking space
+<img> Tag --
+src ,title ,alt -- for using the alternative next
+height and width are global attribute and we can use anywhere
+Block level element and Inline level Element : --
+Inline level element is doing the work side by side and block level element is doing the work line by line.
+Inline -- <b></b> , <i></i> ,<img> etc
+Block level -- <p></p>,<div></div> etc..
+Marquee Tag --
+Marquee tag is a block level element.
+Bydefault direction value is left.
+bgcolor 
+direction : left right up down
+behavior : scroll slide alternate
+scrollamount : speed management
+loop
+onmouseover : stop()
+onmouseleave : start()
+hspace : for left and right outer space
+vspace : for top and bottom outer space
+<pre> tag --
+it is using to show the pre text.
+<xmp> Tag : --
+It is use for print the tags.
+Character Entities :  ---
+syntax :  --- &entityname;
+space :-- &nbsp;
+left arrow : &larr;
+right arrow : &rarr;
+copy : &copy;
+trade mark : &trade;
+List in HTML---
+Three types of list in HTML
+⦁	1. Oredered list(<ol></ol> using)
+⦁	2.Unordered list(<ul></ul> using)
+⦁	3.Definition list or Discription List (<dl></dl> --defintion list  and <dt>--defintion term  <dd> -- defintion data)
+Nested List : - Unordered list within ordered list or ordered list within unordered list
+Align : it has four attributes --left,right,center,justify
+Web Form ---
+<form></form>
+<legend>
+<fieldset>
+<select>
+<option>
+<datalist>
+<button>
+<input>
+<textarea>
+<label>
+-------------------------------------
+Type---
+text
+radio
+checkbox
+file color
+number
+ email 
+password
+date 
+button
+reset
+datetime-local
+url 
+file and so many ..
+----------------------------------------
+autocomplete
+autofocus
+min
+max
+multiple
+accept
+readonly
+selected
+name
+value
+placeholder
+readonly
+disable
+pattern
+maxlength
+minlength
+required and many more...
+Button : ----
+Submit button -- is used to submit data on server.
+reset button --  is used to reset the value of the form.
+dummy button -- is used to execute the client side script.
+image button-- image button working like that submit button
+Get Method :--
+⦁	Get is less secure .
+⦁	get method is used for small forms
+⦁	URL length limit 2048.
+⦁	Fast execution as compare to the Post Method
+⦁	file upload is not possible here.
+Post Method :--
+⦁	Post is more secure.
+⦁	Post method is used for large forms.
+⦁	No URL length available.
+⦁	Slow execution as compare to the Get Method.
+⦁	File upload is possible here.
+enctype----
+⦁	text/plain   (default value)
+⦁	multipart/form-data
+Accept Attribute --
+file extension       video/*     audio/*   image/*     file/*
+Multiple Attribute : -- Multiple attribute are always work with control button
+
